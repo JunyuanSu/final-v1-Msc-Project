@@ -1,0 +1,103 @@
+Unity Play Mode engineering acceptance
+2026-10-06T18:42:45.4104665+01:00
+Baseline references verified WP09 / WP12. Time scale=4 for acceptance; original=1
+CONSOLE Error: Exception while resuming Cesium ion connection: Request was canceled because the Unity AppDomain is reloading.
+UnityEngine.Debug:LogError (object)
+Reinterop.ReinteropInitializer:UnityEngine_Debug_CallLogError_FA05wu8x__otZNsgdHTnU9A (intptr,intptr*) (at ./Library/PackageCache/com.cesium.unity@1.24.0/Source/generated/Reinterop.RoslynSourceGenerator/ReinteropInitializer.cs:168857)
+Reinterop.ReinteropInitializer/AssemblyReloadCallbackNativeFunction:Invoke () (at ./Library/PackageCache/com.cesium.unity@1.24.0/Source/generated/Reinterop.RoslynSourceGenerator/ReinteropInitializer.cs:166555)
+UnityEditor.AssemblyReloadEvents:OnBeforeAssemblyReload ()
+
+CONSOLE Assert: Release of invalid GC handle. The handle is from a previous domain. The release operation is skipped.
+
+CONSOLE Warning: Queue slow-start waypoint is not upstream of the processing point. The processing point test may run, but the configured slow zone will not represent the standard congestion baseline.
+BEGIN WP08 pause/reset probe processing=8 progress=577.880800 queueStart=647.7222 count=10 speed=10 interval=4 delay=12
+WP08 pause/reset probe ARRIVE TestTruck_00 t=57.793300 p=577.880800
+WP08 pause/reset probe QUEUE_PEAK stopped=1 accumulatedRange=577.880800..577.880800
+Pause during first WP08 service at elapsed=2.002946
+PASS Pause: transforms/progress/service timers/scenario time/spawn countdown/counts frozen for >=1 real second. Resumed same run.
+WP08 pause/reset probe QUEUE_PEAK stopped=2 accumulatedRange=561.880900..577.880800
+PASS mid-service Reset: Idle, Active/Spawned/Completed/time=0. Restart next frames.
+CONSOLE Warning: Queue slow-start waypoint is not upstream of the processing point. The processing point test may run, but the configured slow zone will not represent the standard congestion baseline.
+BEGIN WP08 full run processing=8 progress=577.880800 queueStart=647.7222 count=10 speed=10 interval=4 delay=12
+WP08 full run ARRIVE TestTruck_00 t=57.798700 p=577.880800
+WP08 full run QUEUE_PEAK stopped=1 accumulatedRange=577.880800..577.880800
+WP08 full run QUEUE_PEAK stopped=2 accumulatedRange=561.880800..577.880800
+WP08 full run QUEUE_PEAK stopped=3 accumulatedRange=545.880800..577.880800
+WP08 full run QUEUE_PEAK stopped=4 accumulatedRange=529.880800..577.880800
+WP08 full run QUEUE_PEAK stopped=5 accumulatedRange=513.880900..577.880800
+WP08 full run RELEASE TestTruck_00 t=69.804660 observedWait=12.005970 serviceTimer=12.005980 p=578.003900
+WP08 full run ARRIVE TestTruck_01 t=71.403190 p=577.880800
+WP08 full run QUEUE_PEAK stopped=6 accumulatedRange=497.880900..577.880800
+WP08 full run QUEUE_PEAK stopped=7 accumulatedRange=481.880900..577.880800
+WP08 full run WP09_BOUNDARY TestTruck_00 p=647.722200 speed=10 processed=True
+WP08 full run QUEUE_PEAK stopped=8 accumulatedRange=465.880900..577.880800
+WP08 full run QUEUE_PEAK stopped=9 accumulatedRange=449.881000..577.880800
+WP08 full run RELEASE TestTruck_01 t=83.409870 observedWait=12.006680 serviceTimer=12.006680 p=577.995500
+WP08 full run ARRIVE TestTruck_02 t=85.007960 p=577.880800
+WP08 full run WP09_BOUNDARY TestTruck_01 p=647.722200 speed=10 processed=True
+WP08 full run RELEASE TestTruck_02 t=97.014010 observedWait=12.006050 serviceTimer=12.006110 p=577.997100
+WP08 full run ARRIVE TestTruck_03 t=98.607630 p=577.880800
+WP08 full run WP09_BOUNDARY TestTruck_02 p=647.722200 speed=10 processed=True
+WP08 full run RELEASE TestTruck_03 t=110.610300 observedWait=12.002700 serviceTimer=12.002800 p=577.977900
+WP08 full run ARRIVE TestTruck_04 t=112.207600 p=577.880800
+WP08 full run WP09_BOUNDARY TestTruck_03 p=647.722200 speed=10 processed=True
+WP08 full run RELEASE TestTruck_04 t=124.217800 observedWait=12.010210 serviceTimer=12.010210 p=577.997600
+WP08 full run ARRIVE TestTruck_05 t=125.815400 p=577.880800
+WP08 full run WP09_BOUNDARY TestTruck_04 p=647.722200 speed=10 processed=True
+WP08 full run RELEASE TestTruck_05 t=137.822700 observedWait=12.007320 serviceTimer=12.007050 p=577.978800
+WP08 full run ARRIVE TestTruck_06 t=139.421700 p=577.880800
+WP08 full run WP09_BOUNDARY TestTruck_05 p=647.722200 speed=10 processed=True
+WP08 full run RELEASE TestTruck_06 t=151.432200 observedWait=12.010500 serviceTimer=12.010070 p=578.102200
+WP08 full run ARRIVE TestTruck_07 t=153.013700 p=577.880800
+WP08 full run WP09_BOUNDARY TestTruck_06 p=647.722200 speed=10 processed=True
+WP08 full run RELEASE TestTruck_07 t=165.019500 observedWait=12.005770 serviceTimer=12.005770 p=577.976700
+WP08 full run ARRIVE TestTruck_08 t=166.616100 p=577.880800
+WP08 full run WP09_BOUNDARY TestTruck_07 p=647.722200 speed=10 processed=True
+WP08 full run RELEASE TestTruck_08 t=178.620000 observedWait=12.003860 serviceTimer=12.004100 p=577.987100
+WP08 full run ARRIVE TestTruck_09 t=180.210900 p=577.880800
+WP08 full run WP09_BOUNDARY TestTruck_08 p=647.722200 speed=10 processed=True
+WP08 full run RELEASE TestTruck_09 t=192.213800 observedWait=12.002910 serviceTimer=12.002830 p=577.980000
+WP08 full run WP09_BOUNDARY TestTruck_09 p=647.722200 speed=10 processed=True
+SUMMARY WP08 full run elapsed=226.767800 completed=10 active=0 releases=10 minSpacing=15.999940 maxBodyPenetration=0.000000 maxStoppedUnprocessed=9 stoppedProgressRange=449.881000..577.880800 scaledDt=0.006388..0.047130 processedSlowSamplesAfterWP09=0 unprocessedQueueSpeedSamples=0
+BEGIN FreeFlow baseline processing=12 progress=828.704900 queueStart=647.7222 count=5 speed=10 interval=8 delay=12
+SUMMARY FreeFlow baseline elapsed=124.384000 completed=5 active=0 releases=0 minSpacing=80.035580 maxBodyPenetration=0.000000 maxStoppedUnprocessed=0 stoppedProgressRange=Infinity..0.000000 scaledDt=0.006565..0.043542 processedSlowSamplesAfterWP09=0 unprocessedQueueSpeedSamples=0
+BEGIN Congestion WP12 baseline processing=12 progress=828.704900 queueStart=647.7222 count=10 speed=10 interval=4 delay=12
+Congestion WP12 baseline WP09_BOUNDARY TestTruck_00 p=647.722200 speed=10 processed=False
+Congestion WP12 baseline WP09_BOUNDARY TestTruck_01 p=647.722200 speed=10 processed=False
+Congestion WP12 baseline WP09_BOUNDARY TestTruck_02 p=647.722200 speed=10 processed=False
+Congestion WP12 baseline WP09_BOUNDARY TestTruck_03 p=647.722200 speed=10 processed=False
+Congestion WP12 baseline WP09_BOUNDARY TestTruck_04 p=647.722200 speed=10 processed=False
+Congestion WP12 baseline WP09_BOUNDARY TestTruck_05 p=647.722200 speed=10 processed=False
+Congestion WP12 baseline WP09_BOUNDARY TestTruck_06 p=647.722200 speed=10 processed=False
+Congestion WP12 baseline WP09_BOUNDARY TestTruck_07 p=647.722200 speed=10 processed=False
+Congestion WP12 baseline WP09_BOUNDARY TestTruck_08 p=647.722200 speed=10 processed=False
+Congestion WP12 baseline WP09_BOUNDARY TestTruck_09 p=647.722200 speed=10 processed=False
+Congestion WP12 baseline ARRIVE TestTruck_00 t=137.173200 p=828.704900
+Congestion WP12 baseline QUEUE_PEAK stopped=1 accumulatedRange=828.704900..828.704900
+Congestion WP12 baseline QUEUE_PEAK stopped=5 accumulatedRange=764.705000..828.704900
+Congestion WP12 baseline QUEUE_PEAK stopped=8 accumulatedRange=716.705000..828.704900
+Congestion WP12 baseline QUEUE_PEAK stopped=10 accumulatedRange=684.705000..828.704900
+Congestion WP12 baseline RELEASE TestTruck_00 t=149.174400 observedWait=12.001190 serviceTimer=12.001350 p=828.792200
+Congestion WP12 baseline ARRIVE TestTruck_01 t=155.566300 p=828.704900
+Congestion WP12 baseline RELEASE TestTruck_01 t=167.567600 observedWait=12.001280 serviceTimer=12.001040 p=828.801000
+Congestion WP12 baseline ARRIVE TestTruck_02 t=173.962900 p=828.704900
+Congestion WP12 baseline RELEASE TestTruck_02 t=185.966200 observedWait=12.003340 serviceTimer=12.003040 p=828.822900
+Congestion WP12 baseline ARRIVE TestTruck_03 t=192.357500 p=828.704900
+Congestion WP12 baseline RELEASE TestTruck_03 t=204.363300 observedWait=12.005860 serviceTimer=12.005500 p=828.795600
+Congestion WP12 baseline ARRIVE TestTruck_04 t=210.758500 p=828.704900
+Congestion WP12 baseline RELEASE TestTruck_04 t=222.762700 observedWait=12.004230 serviceTimer=12.004220 p=828.809100
+Congestion WP12 baseline ARRIVE TestTruck_05 t=229.159000 p=828.704900
+Congestion WP12 baseline RELEASE TestTruck_05 t=241.162600 observedWait=12.003620 serviceTimer=12.003240 p=828.795700
+Congestion WP12 baseline ARRIVE TestTruck_06 t=247.552500 p=828.703900
+Congestion WP12 baseline RELEASE TestTruck_06 t=259.558000 observedWait=12.005540 serviceTimer=12.005700 p=828.787500
+Congestion WP12 baseline ARRIVE TestTruck_07 t=265.952100 p=828.704900
+Congestion WP12 baseline RELEASE TestTruck_07 t=277.952900 observedWait=12.000820 serviceTimer=12.000610 p=828.777700
+Congestion WP12 baseline ARRIVE TestTruck_08 t=284.350100 p=828.704900
+Congestion WP12 baseline RELEASE TestTruck_08 t=296.352500 observedWait=12.002440 serviceTimer=12.002610 p=828.775600
+Congestion WP12 baseline ARRIVE TestTruck_09 t=302.751100 p=828.704900
+Congestion WP12 baseline RELEASE TestTruck_09 t=314.754200 observedWait=12.003080 serviceTimer=12.002900 p=828.787000
+SUMMARY Congestion WP12 baseline elapsed=324.225800 completed=10 active=0 releases=10 minSpacing=15.999940 maxBodyPenetration=0.000000 maxStoppedUnprocessed=10 stoppedProgressRange=684.705000..828.704900 scaledDt=0.006365..0.111551 processedSlowSamplesAfterWP09=0 unprocessedQueueSpeedSamples=135420
+PASS all requested cycles completed
+Console expectedWarnings=2 unexpectedWarnings=0 errors=2
+Restored WP12/Congestion and timeScale=1
+Returned to Edit Mode; scene runtime overrides discarded.

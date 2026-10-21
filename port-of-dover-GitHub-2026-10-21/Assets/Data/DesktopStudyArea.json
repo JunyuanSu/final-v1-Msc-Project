@@ -1,0 +1,49 @@
+{
+  "status": "desktop_overview_verified_ready_for_traffic_prototype",
+  "coordinateSystem": "WGS84",
+  "heightDatum": "ellipsoidal metres, not terrain-relative",
+  "area": "Eastern Docks entrance, vehicle holding and ferry terminal",
+  "bounds": {
+    "south": 51.121,
+    "north": 51.132,
+    "west": 1.321,
+    "east": 1.345
+  },
+  "target": {
+    "latitude": 51.1265,
+    "longitude": 1.333,
+    "height": 10
+  },
+  "georeference": {
+    "latitude": 51.129,
+    "longitude": 1.313,
+    "height": 500
+  },
+  "camera": {
+    "unityPosition": [
+      1400.134635005677,
+      509.84057340525993,
+      -1127.9369847117612
+    ],
+    "unityEuler": [
+      49.635463426902646,
+      0,
+      0
+    ],
+    "verticalFov": 60,
+    "near": 0.3,
+    "far": 10000,
+    "recommendedAspect": "16:9"
+  },
+  "note": "Planning envelope only. Does not clip Cesium streaming or define valid vehicle lanes.",
+  "validation": {
+    "date": "2026-09-11",
+    "editor": "2022.3.55f1",
+    "gameView": "2560x1440 (16:9)",
+    "playModeRuns": 2,
+    "consoleWarnings": 0,
+    "consoleErrors": 0,
+    "result": "Eastern Docks visible; initial framing consistent on restart",
+    "remaining": "Lane-level route and road heights must be checked during traffic prototype authoring; experimental protocol alignment remains pending."
+  }
+}

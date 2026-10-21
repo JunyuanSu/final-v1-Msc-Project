@@ -1,0 +1,37 @@
+Play mode validation started
+Run 1 target=1 t=0.06 pos=(948.609, -448.940, -353.321)
+Run 1 target=2 t=6.32 pos=(1005.259, -458.150, -379.077)
+Run 1 target=3 t=14.29 pos=(1084.794, -444.414, -384.982)
+Run 1 target=4 t=22.93 pos=(1167.191, -450.400, -359.062)
+Run 1 target=5 t=31.36 pos=(1241.662, -446.213, -319.406)
+Run 1 target=6 t=38.32 pos=(1292.474, -450.681, -271.705)
+Run 1 target=7 t=44.63 pos=(1322.276, -450.964, -216.147)
+Run 1 target=8 t=51.21 pos=(1369.649, -450.772, -170.635)
+Run 1 target=9 t=57.63 pos=(1427.779, -450.732, -143.730)
+Run 1 target=10 t=64.48 pos=(1473.000, -451.064, -194.895)
+Run 1 target=11 t=70.36 pos=(1435.512, -450.273, -240.123)
+Run 1 target=12 t=76.56 pos=(1390.552, -450.413, -282.833)
+Run 1 target=13 t=82.42 pos=(1345.796, -450.661, -320.277)
+Run 1 target=14 t=86.52 pos=(1357.184, -451.007, -359.688)
+FINISH run=1 t=91.95 pos=(1396.020, -450.542, -397.244) moving=False maxYStep=0.4224548
+Endpoint horizontal drift=0
+RESET pos=(948.427, -448.752, -353.238) moving=False finished=False target=1
+Run 2 target=1 t=0.02 pos=(948.626, -448.757, -353.328)
+Forced raycast miss begins
+Miss fallback deltaY=0 moving=True
+Run 2 target=2 t=6.27 pos=(1005.336, -456.016, -379.107)
+Run 2 target=3 t=14.25 pos=(1084.944, -444.409, -385.002)
+Run 2 target=4 t=22.87 pos=(1167.292, -450.398, -359.012)
+Run 2 target=5 t=31.32 pos=(1241.772, -446.213, -319.342)
+Run 2 target=6 t=38.29 pos=(1292.559, -450.681, -271.637)
+Run 2 target=7 t=45.14 pos=(1322.159, -450.967, -216.312)
+Run 2 target=8 t=51.70 pos=(1369.464, -450.772, -170.740)
+Run 2 target=9 t=58.12 pos=(1427.566, -450.735, -143.655)
+Run 2 target=10 t=64.97 pos=(1472.977, -451.063, -194.710)
+Run 2 target=11 t=70.82 pos=(1435.714, -450.277, -239.910)
+Run 2 target=12 t=77.07 pos=(1390.549, -450.413, -282.833)
+Run 2 target=13 t=82.92 pos=(1345.755, -450.661, -320.304)
+Run 2 target=14 t=87.03 pos=(1357.140, -451.007, -359.631)
+FINISH run=2 t=92.46 pos=(1396.077, -450.541, -397.300) moving=False maxYStep=0.4016418
+Endpoint horizontal drift=0
+COMPLETE two full runs

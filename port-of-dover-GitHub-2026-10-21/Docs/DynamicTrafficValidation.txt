@@ -1,0 +1,185 @@
+Dynamic traffic actual Play Mode acceptance
+2026-10-06T22:44:12.1009094+01:00
+Unity 2022.3.55f1; temporary timeScale=8; all durations Scenario seconds. Original scale=1
+BEGIN Continuous FreeFlow 20 completions id=ContinuousFreeFlow continuous=True interval=8 activeLimit=16 spacing=16 point=828.7049 queueStart=647.7222
+PAUSE Continuous FreeFlow 20 completions t=30.0197
+PASS pause/resume Continuous FreeFlow 20 completions
+WINDOW Continuous FreeFlow 20 completions t=120.02 spawned=15 completed=4 active=11 stoppedQueue=0 tail=0.0000 head=0.0000 denseQueue=0 denseTail=0.0000 capacityLimited=False spawnDelta=15 completeDelta=4
+WINDOW Continuous FreeFlow 20 completions t=240.02 spawned=30 completed=19 active=11 stoppedQueue=0 tail=0.0000 head=0.0000 denseQueue=0 denseTail=0.0000 capacityLimited=False spawnDelta=15 completeDelta=15
+DENSE_QUEUE Continuous FreeFlow 20 completions max=0 minTail=Infinity minSteadyDense=2147483647
+SUMMARY Continuous FreeFlow 20 completions t=244.55290 spawned=31 completed=20 active=11 maxActive=12 maxQueue=0 minQueueTail=Infinity minSpacing=80.000030 maxPenetration=0.000000 maxStoppedSeconds=0.00000 wait=Infinity..0.00000 spawnInterval=8.00011..8.02383 admissionAtCapacitySeconds=0.000 dueEntranceBlockedSeconds=0.00000 steadyMinQueue=2147483647 steadyNoQueueSeconds=0.00000 dt=0.014748..0.114923
+PASS FreeFlow -> Reset -> Congestion isolation
+BEGIN Continuous Congestion 1800 seconds id=ContinuousCongestion continuous=True interval=12 activeLimit=16 spacing=16 point=828.7049 queueStart=647.7222
+WINDOW Continuous Congestion 1800 seconds t=120.01 spawned=10 completed=0 active=10 stoppedQueue=0 tail=0.0000 head=0.0000 denseQueue=0 denseTail=0.0000 capacityLimited=False spawnDelta=10 completeDelta=0
+PAUSE Continuous Congestion 1800 seconds t=148.4232
+PASS pause/resume Continuous Congestion 1800 seconds
+RELEASE Continuous Congestion 1800 seconds TestTruck_00 t=149.18790 wait=12.00284 service=12.00274
+RELEASE Continuous Congestion 1800 seconds TestTruck_01 t=167.60980 wait=12.02065 service=12.02063
+RELEASE Continuous Congestion 1800 seconds TestTruck_02 t=186.01600 wait=12.01384 service=12.01380
+RELEASE Continuous Congestion 1800 seconds TestTruck_03 t=204.43280 wait=12.01915 service=12.01916
+RELEASE Continuous Congestion 1800 seconds TestTruck_04 t=222.84430 wait=12.01523 service=12.01520
+WINDOW Continuous Congestion 1800 seconds t=240.00 spawned=20 completed=5 active=15 stoppedQueue=8 tail=716.7050 head=828.7049 denseQueue=8 denseTail=716.7050 capacityLimited=False spawnDelta=10 completeDelta=5
+RELEASE Continuous Congestion 1800 seconds TestTruck_05 t=241.23160 wait=12.00247 service=12.00254
+RELEASE Continuous Congestion 1800 seconds TestTruck_06 t=259.65150 wait=12.03345 service=12.03358
+RELEASE Continuous Congestion 1800 seconds TestTruck_07 t=278.04440 wait=12.01962 service=12.01980
+RELEASE Continuous Congestion 1800 seconds TestTruck_08 t=296.45340 wait=12.01987 service=12.01991
+RELEASE Continuous Congestion 1800 seconds TestTruck_09 t=314.87500 wait=12.02985 service=12.02981
+RELEASE Continuous Congestion 1800 seconds TestTruck_10 t=333.25830 wait=12.00491 service=12.00500
+RELEASE Continuous Congestion 1800 seconds TestTruck_11 t=351.68370 wait=12.02591 service=12.02595
+WINDOW Continuous Congestion 1800 seconds t=360.02 spawned=27 completed=11 active=16 stoppedQueue=12 tail=652.7050 head=828.7049 denseQueue=12 denseTail=652.7050 capacityLimited=True spawnDelta=7 completeDelta=6
+RELEASE Continuous Congestion 1800 seconds TestTruck_12 t=370.08760 wait=12.00653 service=12.00646
+RELEASE Continuous Congestion 1800 seconds TestTruck_13 t=388.52010 wait=12.02832 service=12.02829
+RELEASE Continuous Congestion 1800 seconds TestTruck_14 t=406.91630 wait=12.02063 service=12.02073
+RELEASE Continuous Congestion 1800 seconds TestTruck_15 t=425.31840 wait=12.02148 service=12.02133
+RELEASE Continuous Congestion 1800 seconds TestTruck_16 t=443.69160 wait=12.00137 service=12.00170
+RELEASE Continuous Congestion 1800 seconds TestTruck_17 t=462.09980 wait=12.01999 service=12.01997
+WINDOW Continuous Congestion 1800 seconds t=480.01 spawned=34 completed=18 active=16 stoppedQueue=12 tail=652.7050 head=828.7049 denseQueue=12 denseTail=652.7050 capacityLimited=True spawnDelta=7 completeDelta=7
+RELEASE Continuous Congestion 1800 seconds TestTruck_18 t=480.51500 wait=12.01941 service=12.01952
+RELEASE Continuous Congestion 1800 seconds TestTruck_19 t=498.90820 wait=12.01636 service=12.01637
+RELEASE Continuous Congestion 1800 seconds TestTruck_20 t=517.31430 wait=12.02716 service=12.02705
+RELEASE Continuous Congestion 1800 seconds TestTruck_21 t=535.68840 wait=12.00122 service=12.00151
+RELEASE Continuous Congestion 1800 seconds TestTruck_22 t=554.10680 wait=12.02051 service=12.02084
+RELEASE Continuous Congestion 1800 seconds TestTruck_23 t=572.50050 wait=12.02185 service=12.02194
+RELEASE Continuous Congestion 1800 seconds TestTruck_24 t=590.89600 wait=12.01343 service=12.01294
+WINDOW Continuous Congestion 1800 seconds t=600.03 spawned=40 completed=24 active=16 stoppedQueue=12 tail=652.7050 head=828.7049 denseQueue=12 denseTail=652.7050 capacityLimited=True spawnDelta=6 completeDelta=6
+RELEASE Continuous Congestion 1800 seconds TestTruck_25 t=609.30200 wait=12.00836 service=12.00807
+RELEASE Continuous Congestion 1800 seconds TestTruck_26 t=627.68650 wait=12.00867 service=12.00898
+RELEASE Continuous Congestion 1800 seconds TestTruck_27 t=646.10300 wait=12.01917 service=12.01920
+RELEASE Continuous Congestion 1800 seconds TestTruck_28 t=664.51010 wait=12.01001 service=12.00984
+RELEASE Continuous Congestion 1800 seconds TestTruck_29 t=682.91160 wait=12.00464 service=12.00436
+RELEASE Continuous Congestion 1800 seconds TestTruck_30 t=701.29140 wait=12.01257 service=12.01218
+RELEASE Continuous Congestion 1800 seconds TestTruck_31 t=719.69740 wait=12.00793 service=12.00822
+WINDOW Continuous Congestion 1800 seconds t=720.01 spawned=47 completed=31 active=16 stoppedQueue=0 tail=0.0000 head=0.0000 denseQueue=11 denseTail=637.5634 capacityLimited=True spawnDelta=7 completeDelta=7
+RELEASE Continuous Congestion 1800 seconds TestTruck_32 t=738.10270 wait=12.02545 service=12.02567
+RELEASE Continuous Congestion 1800 seconds TestTruck_33 t=756.50930 wait=12.02228 service=12.02228
+RELEASE Continuous Congestion 1800 seconds TestTruck_34 t=774.93710 wait=12.02917 service=12.02885
+RELEASE Continuous Congestion 1800 seconds TestTruck_35 t=793.34800 wait=12.01379 service=12.01403
+RELEASE Continuous Congestion 1800 seconds TestTruck_36 t=811.75260 wait=12.01514 service=12.01541
+RELEASE Continuous Congestion 1800 seconds TestTruck_37 t=830.13920 wait=12.00354 service=12.00414
+WINDOW Continuous Congestion 1800 seconds t=840.01 spawned=54 completed=38 active=16 stoppedQueue=12 tail=652.7050 head=828.7049 denseQueue=12 denseTail=652.7050 capacityLimited=True spawnDelta=7 completeDelta=7
+RELEASE Continuous Congestion 1800 seconds TestTruck_38 t=848.52470 wait=12.00555 service=12.00500
+RELEASE Continuous Congestion 1800 seconds TestTruck_39 t=866.92260 wait=12.00964 service=12.00933
+RELEASE Continuous Congestion 1800 seconds TestTruck_40 t=885.32760 wait=12.00793 service=12.00749
+RELEASE Continuous Congestion 1800 seconds TestTruck_41 t=903.73690 wait=12.00830 service=12.00791
+RELEASE Continuous Congestion 1800 seconds TestTruck_42 t=922.12360 wait=12.00336 service=12.00362
+RELEASE Continuous Congestion 1800 seconds TestTruck_43 t=940.53430 wait=12.01514 service=12.01585
+RELEASE Continuous Congestion 1800 seconds TestTruck_44 t=958.92760 wait=12.01971 service=12.01928
+WINDOW Continuous Congestion 1800 seconds t=960.02 spawned=60 completed=44 active=16 stoppedQueue=0 tail=0.0000 head=0.0000 denseQueue=11 denseTail=639.4943 capacityLimited=True spawnDelta=6 completeDelta=6
+RELEASE Continuous Congestion 1800 seconds TestTruck_45 t=977.31010 wait=12.00659 service=12.00651
+RELEASE Continuous Congestion 1800 seconds TestTruck_46 t=995.70920 wait=12.00104 service=12.00119
+RELEASE Continuous Congestion 1800 seconds TestTruck_47 t=1014.12200 wait=12.02374 service=12.02369
+RELEASE Continuous Congestion 1800 seconds TestTruck_48 t=1032.53600 wait=12.02606 service=12.02537
+RELEASE Continuous Congestion 1800 seconds TestTruck_49 t=1050.93400 wait=12.02490 service=12.02370
+RELEASE Continuous Congestion 1800 seconds TestTruck_50 t=1069.33100 wait=12.00708 service=12.00715
+WINDOW Continuous Congestion 1800 seconds t=1080.01 spawned=67 completed=51 active=16 stoppedQueue=12 tail=652.7050 head=828.7049 denseQueue=12 denseTail=652.7050 capacityLimited=True spawnDelta=7 completeDelta=7
+RELEASE Continuous Congestion 1800 seconds TestTruck_51 t=1087.74000 wait=12.02173 service=12.02188
+RELEASE Continuous Congestion 1800 seconds TestTruck_52 t=1106.13600 wait=12.01099 service=12.00976
+RELEASE Continuous Congestion 1800 seconds TestTruck_53 t=1124.54100 wait=12.01624 service=12.01627
+RELEASE Continuous Congestion 1800 seconds TestTruck_54 t=1142.93900 wait=12.01733 service=12.01811
+RELEASE Continuous Congestion 1800 seconds TestTruck_55 t=1161.35700 wait=12.02466 service=12.02445
+RELEASE Continuous Congestion 1800 seconds TestTruck_56 t=1179.76400 wait=12.02490 service=12.02549
+RELEASE Continuous Congestion 1800 seconds TestTruck_57 t=1198.17700 wait=12.01721 service=12.01679
+WINDOW Continuous Congestion 1800 seconds t=1200.02 spawned=73 completed=57 active=16 stoppedQueue=0 tail=0.0000 head=0.0000 denseQueue=11 denseTail=641.3820 capacityLimited=True spawnDelta=6 completeDelta=6
+RELEASE Continuous Congestion 1800 seconds TestTruck_58 t=1216.59100 wait=12.02063 service=12.02048
+RELEASE Continuous Congestion 1800 seconds TestTruck_59 t=1234.99800 wait=12.00562 service=12.00619
+RELEASE Continuous Congestion 1800 seconds TestTruck_60 t=1253.40700 wait=12.01782 service=12.01813
+RELEASE Continuous Congestion 1800 seconds TestTruck_61 t=1271.81700 wait=12.02454 service=12.02375
+RELEASE Continuous Congestion 1800 seconds TestTruck_62 t=1290.20800 wait=12.00488 service=12.00407
+RELEASE Continuous Congestion 1800 seconds TestTruck_63 t=1308.58500 wait=12.00305 service=12.00340
+WINDOW Continuous Congestion 1800 seconds t=1320.02 spawned=80 completed=64 active=16 stoppedQueue=12 tail=652.7050 head=828.7049 denseQueue=12 denseTail=652.7050 capacityLimited=True spawnDelta=7 completeDelta=7
+RELEASE Continuous Congestion 1800 seconds TestTruck_64 t=1326.98900 wait=12.01575 service=12.01527
+RELEASE Continuous Congestion 1800 seconds TestTruck_65 t=1345.38200 wait=12.00928 service=12.00936
+RELEASE Continuous Congestion 1800 seconds TestTruck_66 t=1363.79000 wait=12.00757 service=12.00737
+RELEASE Continuous Congestion 1800 seconds TestTruck_67 t=1382.18200 wait=12.00427 service=12.00499
+RELEASE Continuous Congestion 1800 seconds TestTruck_68 t=1400.59700 wait=12.01978 service=12.01900
+RELEASE Continuous Congestion 1800 seconds TestTruck_69 t=1418.96900 wait=12.00037 service=12.00024
+RELEASE Continuous Congestion 1800 seconds TestTruck_70 t=1437.36900 wait=12.00427 service=12.00711
+WINDOW Continuous Congestion 1800 seconds t=1440.02 spawned=86 completed=70 active=16 stoppedQueue=0 tail=0.0000 head=0.0000 denseQueue=11 denseTail=643.3873 capacityLimited=True spawnDelta=6 completeDelta=6
+RELEASE Continuous Congestion 1800 seconds TestTruck_71 t=1455.77000 wait=12.00867 service=12.00891
+RELEASE Continuous Congestion 1800 seconds TestTruck_72 t=1474.16300 wait=12.01294 service=12.01310
+RELEASE Continuous Congestion 1800 seconds TestTruck_73 t=1492.55900 wait=12.01343 service=12.01288
+RELEASE Continuous Congestion 1800 seconds TestTruck_74 t=1510.96900 wait=12.02039 service=12.02000
+RELEASE Continuous Congestion 1800 seconds TestTruck_75 t=1529.35300 wait=12.00488 service=12.00522
+RELEASE Continuous Congestion 1800 seconds TestTruck_76 t=1547.75200 wait=12.00305 service=12.00243
+WINDOW Continuous Congestion 1800 seconds t=1560.02 spawned=93 completed=77 active=16 stoppedQueue=12 tail=652.7050 head=828.7049 denseQueue=12 denseTail=652.7050 capacityLimited=True spawnDelta=7 completeDelta=7
+RELEASE Continuous Congestion 1800 seconds TestTruck_77 t=1566.15900 wait=12.02039 service=12.02080
+RELEASE Continuous Congestion 1800 seconds TestTruck_78 t=1584.57000 wait=12.02161 service=12.02096
+RELEASE Continuous Congestion 1800 seconds TestTruck_79 t=1602.98700 wait=12.02148 service=12.02121
+RELEASE Continuous Congestion 1800 seconds TestTruck_80 t=1621.37600 wait=12.00244 service=12.00228
+RELEASE Continuous Congestion 1800 seconds TestTruck_81 t=1639.77600 wait=12.00562 service=12.00502
+RELEASE Continuous Congestion 1800 seconds TestTruck_82 t=1658.18200 wait=12.00830 service=12.00879
+RELEASE Continuous Congestion 1800 seconds TestTruck_83 t=1676.57800 wait=12.00317 service=12.00284
+WINDOW Continuous Congestion 1800 seconds t=1680.01 spawned=99 completed=83 active=16 stoppedQueue=0 tail=0.0000 head=0.0000 denseQueue=11 denseTail=645.3483 capacityLimited=True spawnDelta=6 completeDelta=6
+RELEASE Continuous Congestion 1800 seconds TestTruck_84 t=1694.97200 wait=12.01758 service=12.01779
+RELEASE Continuous Congestion 1800 seconds TestTruck_85 t=1713.36300 wait=12.00330 service=12.00458
+RELEASE Continuous Congestion 1800 seconds TestTruck_86 t=1731.77400 wait=12.02075 service=12.01921
+RELEASE Continuous Congestion 1800 seconds TestTruck_87 t=1750.18800 wait=12.01489 service=12.01383
+RELEASE Continuous Congestion 1800 seconds TestTruck_88 t=1768.61100 wait=12.02197 service=12.02090
+RELEASE Continuous Congestion 1800 seconds TestTruck_89 t=1786.99100 wait=12.00000 service=12.00020
+WINDOW Continuous Congestion 1800 seconds t=1800.02 spawned=106 completed=90 active=16 stoppedQueue=12 tail=652.7050 head=828.7049 denseQueue=12 denseTail=652.7050 capacityLimited=True spawnDelta=7 completeDelta=7
+DENSE_QUEUE Continuous Congestion 1800 seconds max=13 minTail=636.60550 minSteadyDense=11
+SUMMARY Continuous Congestion 1800 seconds t=1800.02000 spawned=106 completed=90 active=16 maxActive=16 maxQueue=13 minQueueTail=636.70490 minSpacing=15.999940 maxPenetration=0.000000 maxStoppedSeconds=11.99988 wait=12.00000..12.03345 spawnInterval=12.00017..18.44141 admissionAtCapacitySeconds=1562.399 dueEntranceBlockedSeconds=0.00000 steadyMinQueue=0 steadyNoQueueSeconds=417.03730 dt=0.013924..0.930578
+PASS queued Congestion Reset clear all state; immediate FreeFlow start
+BEGIN Congestion -> FreeFlow isolation id=ContinuousFreeFlow continuous=True interval=8 activeLimit=16 spacing=16 point=828.7049 queueStart=647.7222
+DENSE_QUEUE Congestion -> FreeFlow isolation max=0 minTail=Infinity minSteadyDense=2147483647
+SUMMARY Congestion -> FreeFlow isolation t=100.37870 spawned=13 completed=2 active=11 maxActive=12 maxQueue=0 minQueueTail=Infinity minSpacing=80.009220 maxPenetration=0.000000 maxStoppedSeconds=0.00000 wait=Infinity..0.00000 spawnInterval=8.00094..8.02902 admissionAtCapacitySeconds=0.000 dueEntranceBlockedSeconds=0.00000 steadyMinQueue=2147483647 steadyNoQueueSeconds=0.00000 dt=0.013797..0.942053
+BEGIN FreeFlow -> Congestion isolation id=ContinuousCongestion continuous=True interval=12 activeLimit=16 spacing=16 point=828.7049 queueStart=647.7222
+WINDOW FreeFlow -> Congestion isolation t=120.01 spawned=10 completed=0 active=10 stoppedQueue=0 tail=0.0000 head=0.0000 denseQueue=0 denseTail=0.0000 capacityLimited=False spawnDelta=10 completeDelta=0
+DENSE_QUEUE FreeFlow -> Congestion isolation max=3 minTail=796.67020 minSteadyDense=2147483647
+SUMMARY FreeFlow -> Congestion isolation t=148.47670 spawned=13 completed=0 active=13 maxActive=13 maxQueue=3 minQueueTail=796.70500 minSpacing=15.999940 maxPenetration=0.000000 maxStoppedSeconds=11.28804 wait=Infinity..0.00000 spawnInterval=12.00441..12.03941 admissionAtCapacitySeconds=0.000 dueEntranceBlockedSeconds=0.00000 steadyMinQueue=2147483647 steadyNoQueueSeconds=0.00000 dt=0.013593..0.083716
+PASS reverse isolation and queued reset
+RANDOM pass=0 index=0 id=ContinuousFreeFlow
+RANDOM pass=0 index=1 id=ContinuousCongestion
+RANDOM pass=0 index=2 id=ContinuousFreeFlow
+RANDOM pass=0 index=3 id=ContinuousCongestion
+RANDOM pass=0 index=4 id=ContinuousFreeFlow
+RANDOM pass=0 index=5 id=ContinuousCongestion
+RANDOM pass=0 index=6 id=ContinuousCongestion
+RANDOM pass=0 index=7 id=ContinuousCongestion
+RANDOM pass=0 index=8 id=ContinuousCongestion
+RANDOM pass=0 index=9 id=ContinuousFreeFlow
+RANDOM pass=1 index=0 id=ContinuousFreeFlow
+RANDOM pass=1 index=1 id=ContinuousCongestion
+RANDOM pass=1 index=2 id=ContinuousFreeFlow
+RANDOM pass=1 index=3 id=ContinuousCongestion
+RANDOM pass=1 index=4 id=ContinuousFreeFlow
+RANDOM pass=1 index=5 id=ContinuousCongestion
+RANDOM pass=1 index=6 id=ContinuousCongestion
+RANDOM pass=1 index=7 id=ContinuousCongestion
+RANDOM pass=1 index=8 id=ContinuousCongestion
+RANDOM pass=1 index=9 id=ContinuousFreeFlow
+PASS 10 random trials same seed reproduced; both pool entries selected
+RANDOM pass=2 index=0 id=ContinuousFreeFlow
+RANDOM pass=2 index=1 id=ContinuousCongestion
+RANDOM pass=2 index=2 id=ContinuousFreeFlow
+RANDOM pass=2 index=3 id=ContinuousCongestion
+RANDOM pass=2 index=4 id=ContinuousFreeFlow
+RANDOM pass=2 index=5 id=ContinuousCongestion
+RANDOM pass=2 index=6 id=ContinuousFreeFlow
+RANDOM pass=2 index=7 id=ContinuousCongestion
+RANDOM pass=2 index=8 id=ContinuousFreeFlow
+RANDOM pass=2 index=9 id=ContinuousCongestion
+PASS optional avoid immediate repeat over 10 trials
+BEGIN Finite FreeFlow baseline id=FreeFlowBaseline continuous=False interval=8 activeLimit=5 spacing=16 point=828.7049 queueStart=647.7222
+WINDOW Finite FreeFlow baseline t=120.02 spawned=5 completed=4 active=1 stoppedQueue=0 tail=0.0000 head=0.0000 denseQueue=0 denseTail=0.0000 capacityLimited=False spawnDelta=5 completeDelta=4
+DENSE_QUEUE Finite FreeFlow baseline max=0 minTail=Infinity minSteadyDense=2147483647
+SUMMARY Finite FreeFlow baseline t=124.41360 spawned=5 completed=5 active=0 maxActive=5 maxQueue=0 minQueueTail=Infinity minSpacing=80.090970 maxPenetration=0.000000 maxStoppedSeconds=0.00000 wait=Infinity..0.00000 spawnInterval=8.00921..8.01702 admissionAtCapacitySeconds=0.000 dueEntranceBlockedSeconds=0.00000 steadyMinQueue=2147483647 steadyNoQueueSeconds=0.00000 dt=0.013934..0.101183
+BEGIN Finite Congestion baseline id=CongestionBaseline continuous=False interval=4 activeLimit=10 spacing=16 point=828.7049 queueStart=647.7222
+WINDOW Finite Congestion baseline t=120.02 spawned=10 completed=0 active=10 stoppedQueue=0 tail=0.0000 head=0.0000 denseQueue=9 denseTail=641.6324 capacityLimited=False spawnDelta=10 completeDelta=0
+RELEASE Finite Congestion baseline TestTruck_00 t=149.20400 wait=12.01074 service=12.01075
+RELEASE Finite Congestion baseline TestTruck_01 t=167.60820 wait=12.02003 service=12.01999
+RELEASE Finite Congestion baseline TestTruck_02 t=186.01880 wait=12.00822 service=12.00835
+RELEASE Finite Congestion baseline TestTruck_03 t=204.40950 wait=12.00443 service=12.00447
+RELEASE Finite Congestion baseline TestTruck_04 t=222.81790 wait=12.01288 service=12.01274
+WINDOW Finite Congestion baseline t=240.02 spawned=10 completed=5 active=5 stoppedQueue=5 tail=764.7050 head=828.7049 denseQueue=5 denseTail=764.7050 capacityLimited=False spawnDelta=0 completeDelta=5
+RELEASE Finite Congestion baseline TestTruck_05 t=241.20330 wait=12.00154 service=12.00150
+RELEASE Finite Congestion baseline TestTruck_06 t=259.61320 wait=12.01245 service=12.01227
+RELEASE Finite Congestion baseline TestTruck_07 t=278.01640 wait=12.01660 service=12.01653
+RELEASE Finite Congestion baseline TestTruck_08 t=296.41400 wait=12.00790 service=12.00762
+RELEASE Finite Congestion baseline TestTruck_09 t=314.82510 wait=12.01596 service=12.01622
+DENSE_QUEUE Finite Congestion baseline max=10 minTail=575.84220 minSteadyDense=2147483647
+SUMMARY Finite Congestion baseline t=324.30450 spawned=10 completed=10 active=0 maxActive=10 maxQueue=10 minQueueTail=684.70480 minSpacing=15.999940 maxPenetration=0.000000 maxStoppedSeconds=11.99914 wait=12.00154..12.02003 spawnInterval=4.00262..4.02406 admissionAtCapacitySeconds=0.000 dueEntranceBlockedSeconds=0.00000 steadyMinQueue=2147483647 steadyNoQueueSeconds=0.00000 dt=0.012690..0.082695
+PASS ALL dynamic traffic acceptance criteria
+Console warnings=0 errors=0
+Restored timeScale=1
+Exited Play Mode. Runtime overrides discarded.

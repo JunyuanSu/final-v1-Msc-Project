@@ -1,0 +1,226 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5739547590140065608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: LeftSelectValue
+  m_EditorClassIdentifier: 
+  m_Asset: {fileID: -944628639613478452, guid: 9636bc413f95a4b4fab93581c871ba7f, type: 3}
+  m_ActionId: 6a943dcf-29ef-4596-b554-287ecccf7d18
+--- !u!114 &-5350564296358048619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: RightTracked
+  m_EditorClassIdentifier: 
+  m_Asset: {fileID: -944628639613478452, guid: 9636bc413f95a4b4fab93581c871ba7f, type: 3}
+  m_ActionId: 0ce6b0f3-1fe2-412b-ac04-85dd6bfea470
+--- !u!114 &-5285119429573005444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: LeftRotation
+  m_EditorClassIdentifier: 
+  m_Asset: {fileID: -944628639613478452, guid: 9636bc413f95a4b4fab93581c871ba7f, type: 3}
+  m_ActionId: 7111a688-6baa-405c-a29c-badfe7ff247d
+--- !u!114 &-2516764594931924577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: RightPosition
+  m_EditorClassIdentifier: 
+  m_Asset: {fileID: -944628639613478452, guid: 9636bc413f95a4b4fab93581c871ba7f, type: 3}
+  m_ActionId: 4e651108-0a3e-4f47-984a-70d1a567b8f8
+--- !u!114 &-627602235735084605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: LeftPosition
+  m_EditorClassIdentifier: 
+  m_Asset: {fileID: -944628639613478452, guid: 9636bc413f95a4b4fab93581c871ba7f, type: 3}
+  m_ActionId: 936eeb8c-7a9e-4405-b537-cddcccd6d030
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: ObservationReferences
+  m_EditorClassIdentifier: 
+  m_Asset: {fileID: -944628639613478452, guid: 9636bc413f95a4b4fab93581c871ba7f, type: 3}
+  m_ActionId: ec3a385e-9f01-4ae2-9ad9-ba5349a13473
+--- !u!114 &2762816267497473295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: RightSelect
+  m_EditorClassIdentifier: 
+  m_Asset: {fileID: -944628639613478452, guid: 9636bc413f95a4b4fab93581c871ba7f, type: 3}
+  m_ActionId: c96570f5-7a46-41e9-ac26-22bede215021
+--- !u!114 &3438996582226431257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: HeadTracked
+  m_EditorClassIdentifier: 
+  m_Asset: {fileID: -944628639613478452, guid: 9636bc413f95a4b4fab93581c871ba7f, type: 3}
+  m_ActionId: 95e970e2-e770-47c1-80f4-552bad1c2d0a
+--- !u!114 &3572896273421476651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: LeftTrackingState
+  m_EditorClassIdentifier: 
+  m_Asset: {fileID: -944628639613478452, guid: 9636bc413f95a4b4fab93581c871ba7f, type: 3}
+  m_ActionId: 76cb1683-25ec-4eb8-ac90-f77118c0b89f
+--- !u!114 &3821972877719921432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: RightTrackingState
+  m_EditorClassIdentifier: 
+  m_Asset: {fileID: -944628639613478452, guid: 9636bc413f95a4b4fab93581c871ba7f, type: 3}
+  m_ActionId: 61b70350-ec02-4f9e-9283-7ef8a34ae20d
+--- !u!114 &5057891881672516213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: RightSelectValue
+  m_EditorClassIdentifier: 
+  m_Asset: {fileID: -944628639613478452, guid: 9636bc413f95a4b4fab93581c871ba7f, type: 3}
+  m_ActionId: 86f6e298-5a23-49b4-b789-817a21435bfd
+--- !u!114 &5114860643365391943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: HeadTrackingState
+  m_EditorClassIdentifier: 
+  m_Asset: {fileID: -944628639613478452, guid: 9636bc413f95a4b4fab93581c871ba7f, type: 3}
+  m_ActionId: 6d858656-646b-4388-a16d-847218cc0b55
+--- !u!114 &5726395664165398512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: LeftSelect
+  m_EditorClassIdentifier: 
+  m_Asset: {fileID: -944628639613478452, guid: 9636bc413f95a4b4fab93581c871ba7f, type: 3}
+  m_ActionId: a46858f2-abe7-4288-bc2e-cd918af1b0af
+--- !u!114 &5836487696519430766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: HeadRotation
+  m_EditorClassIdentifier: 
+  m_Asset: {fileID: -944628639613478452, guid: 9636bc413f95a4b4fab93581c871ba7f, type: 3}
+  m_ActionId: 78a13a92-ae51-418a-8f64-496e6261f722
+--- !u!114 &8203017140336998263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: RightRotation
+  m_EditorClassIdentifier: 
+  m_Asset: {fileID: -944628639613478452, guid: 9636bc413f95a4b4fab93581c871ba7f, type: 3}
+  m_ActionId: 2c887d60-5062-4a0a-9b3c-628a46c8a7bc
+--- !u!114 &9025231627199667141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: LeftTracked
+  m_EditorClassIdentifier: 
+  m_Asset: {fileID: -944628639613478452, guid: 9636bc413f95a4b4fab93581c871ba7f, type: 3}
+  m_ActionId: 748474f3-280b-4c93-bf60-8522c9549bb7
